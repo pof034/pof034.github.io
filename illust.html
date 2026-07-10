@@ -1,105 +1,80 @@
 
+
+```html
 <!DOCTYPE html>
 <html lang="ja">
 <head>
     <meta charset="UTF-8">
-    
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link rel="stylesheet" href="css/style.css">
+    <title>Illust | My Illustration</title>
 
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/photoswipe@5/dist/photoswipe.css">
-    
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
 
-
 <div class="container">
-<nav>
-        <a href="index.html">Home</a>
-        <a href="illust.html">Illust</a>
-        <a href="diary.html">Diary</a>
-        <a href="profile.html">Profile</a>
-    </nav>
+
+    <header>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="illust.html">Illust</a>
+        </nav>
+    </header>
 
     <main>
 
-    <h2>Illust</h2>
+        <section class="gallery">
 
-    <div class="gallery" id="gallery">
-
-        <figure class="gallery-item">
-            <a href="images/illust/full/001.jpg"
-               data-pswp-width="2480"
-               data-pswp-height="3508">
-                <img src="images/illust/thumb/001.jpg" alt="Illust 1">
+            <a href="images/sample01.jpg">
+                <img src="images/sample01.jpg" alt="イラスト1">
             </a>
-        </figure>
 
-        <figure class="gallery-item">
-            <a href="images/illust/full/002.jpg"
-               data-pswp-width="2480"
-               data-pswp-height="2612">
-                <img src="images/illust/thumb/002.jpg" alt="Illust 2">
+            <a href="images/sample02.jpg">
+                <img src="images/sample02.jpg" alt="イラスト2">
             </a>
-        </figure>
 
-        <figure class="gallery-item">
-            <a href="images/illust/full/003.jpg"
-               data-pswp-width="4961"
-               data-pswp-height="7016">
-                <img src="images/illust/thumb/003.jpg" alt="Illust 3">
+            <a href="images/sample03.jpg">
+                <img src="images/sample03.jpg" alt="イラスト3">
             </a>
-        </figure>
 
-        <figure class="gallery-item">
-            <a href="images/illust/full/004.jpg"
-               data-pswp-width="2480"
-               data-pswp-height="3508">
-                <img src="images/illust/thumb/004.jpg" alt="Illust 4">
+            <a href="images/sample04.jpg">
+                <img src="images/sample04.jpg" alt="イラスト4">
             </a>
-        </figure>
 
-        <figure class="gallery-item">
-            <a href="images/illust/full/005.jpg"
-               data-pswp-width="2480"
-               data-pswp-height="3508">
-                <img src="images/illust/thumb/005.jpg" alt="Illust 5">
+            <a href="images/sample05.jpg">
+                <img src="images/sample05.jpg" alt="イラスト5">
             </a>
-        </figure>
 
-    </div>
+            <a href="images/sample06.jpg">
+                <img src="images/sample06.jpg" alt="イラスト6">
+            </a>
+
+            <!-- 画像を追加するときは、この下に同じ形式で追加してください -->
+
+        </section>
 
     </main>
 
+    <footer>
 
+        <p>Thank you for visiting.</p>
+        <p>No AI Training / No Repost</p>
 
-  
- <footer>
+        <p>
+            <a href="policy.html">Policy</a>
+        </p>
 
+    </footer>
 
-    <p>Thank you for visiting.</p>
-    <p>No AI Training / No Repost</p>
+    <!-- Aboutページへのリンク -->
+    <a href="about.html" class="leaf-link" aria-label="Aboutページへ">
+        🍃
+    </a>
 
-    <p>
-        <a href="policy.html">Policy</a>
-    </p>
-
- </footer>
 </div>
 
-        <script type="module">
-import PhotoSwipeLightbox from 'https://cdn.jsdelivr.net/npm/photoswipe@5/dist/photoswipe-lightbox.esm.js';
-
-const lightbox = new PhotoSwipeLightbox({
-    gallery: '#gallery',
-    children: 'a',
-    pswpModule: () => import('https://cdn.jsdelivr.net/npm/photoswipe@5/dist/photoswipe.esm.js')
-});
-
-lightbox.init();
-        </script>
-<script src="js/script.js"></script>
-    </body>
+</body>
 </html>
+```
