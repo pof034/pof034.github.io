@@ -220,3 +220,32 @@ section p {
     margin: 10px 0;
     color: #666;
 }
+
+
+
+/* ==========================
+   Gallery
+========================== */
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 25px;
+    margin-top: 40px;
+}
+
+.gallery-item {
+    margin: 0;
+}
+
+.gallery-item img {
+    width: 100%;
+    display: block;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: transform .25s ease;
+}
+
+.gallery-item img:hover {
+    transform: scale(1.03);
+}
