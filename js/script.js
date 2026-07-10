@@ -1,1 +1,45 @@
 
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+
+  <script src="js/script.js"></script>
+<body>
+    <body>
+
+<div class="container">
+<nav>
+        <a href="index.html">Home</a>
+        <a href="gallery.html">Illust</a>
+        <a href="diary.html">Diary</a>
+        <a href="profile.html">Profile</a>
+    </nav>
+
+ <footer>
+
+
+    <p>Thank you for visiting.</p>
+    <p>No AI Training / No Repost</p>
+
+    <p>
+        <a href="policy.html">Policy</a>
+    </p>
+
+ </footer>
+</div>
+
+    </body>
+  </div>
+
+<script src="js/script.js"></script>
+
+</body>
+</body>
+</html>
