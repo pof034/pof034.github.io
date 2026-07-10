@@ -171,11 +171,22 @@ footer {
 }
 
 footer p {
-    margin: 6px;
-    font-size: .9rem;
+    margin: 8px 0;
     color: #7b93a5;
+    font-size: 0.9rem;
 }
 
-.copyright {
-    font-size: .8rem;
+.leaf {
+    font-size: 1.4rem;
+    opacity: 0.7;
+}
+
+footer a {
+    color: #5b96b8;
+    text-decoration: none;
+    transition: color .2s ease;
+}
+
+footer a:hover {
+    color: #7fc4a6;
 }
