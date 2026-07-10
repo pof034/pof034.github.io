@@ -1,0 +1,137 @@
+/* ==========================
+   全体
+========================== */
+
+body {
+    margin: 0;
+    padding: 40px 20px;
+    min-height: 100vh;
+
+    /* 空のような優しいグラデーション */
+    background: linear-gradient(
+        to bottom,
+        #eaf9ff 0%,
+        #dff4ff 40%,
+        #d3efff 100%
+    );
+
+    font-family: "Yu Gothic", "Hiragino Sans", sans-serif;
+    color: #444;
+    line-height: 1.8;
+}
+
+
+/* ==========================
+   メインカード
+========================== */
+
+.container {
+    position: relative;
+
+    max-width: 1000px;
+    margin: 0 auto;
+
+    padding: 45px;
+
+    /* 真っ白すぎない白 */
+    background: #fcfdff;
+
+    border: 1px solid #e8f3f8;
+    border-radius: 28px;
+
+    /* やわらかい影 */
+    box-shadow: 0 12px 30px rgba(120,170,200,.18);
+}
+
+
+/* ==========================
+   葉っぱ
+========================== */
+
+.container::after {
+    content: "🍃";
+
+    position: absolute;
+    right: 18px;
+    bottom: 18px;
+
+    font-size: 26px;
+    opacity: .45;
+}
+
+
+/* ==========================
+   見出し
+========================== */
+
+h1,
+h2,
+h3 {
+    color: #4b84a8;
+    font-weight: normal;
+}
+
+
+/* ==========================
+   段落
+========================== */
+
+p {
+    margin-bottom: 1.2em;
+}
+
+
+/* ==========================
+   リンク
+========================== */
+
+a {
+    color: #5b96b8;
+    text-decoration: none;
+    transition: color .2s ease;
+}
+
+a:hover {
+    color: #7fc4a6;
+}
+
+
+/* ==========================
+   画像
+========================== */
+
+img {
+    max-width: 100%;
+    height: auto;
+
+    border-radius: 12px;
+
+    display: block;
+}
+
+
+/* ==========================
+   セクション
+========================== */
+
+section {
+    margin-bottom: 50px;
+}
+
+
+/* ==========================
+   スマホ対応
+========================== */
+
+@media (max-width: 768px) {
+
+    body {
+        padding: 20px 10px;
+    }
+
+    .container {
+        padding: 25px;
+        border-radius: 20px;
+    }
+
+}
