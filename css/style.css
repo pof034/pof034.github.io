@@ -221,3 +221,48 @@ section p {
     color: #666;
 }
 
+/* ==========================
+   Gallery
+========================== */
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 12px;
+    margin-top: 30px;
+}
+
+.gallery-item {
+    margin: 0;
+    overflow: hidden;
+    border-radius: 12px;
+}
+
+.gallery-item img {
+    width: 100%;
+    display: block;
+    aspect-ratio: 2480 / 3508;
+    object-fit: cover;
+    cursor: pointer;
+    transition: transform 0.25s ease;
+}
+
+.gallery-item img:hover {
+    transform: scale(1.03);
+}
+
+/* タブレット */
+@media (min-width: 768px) {
+    .gallery {
+        grid-template-columns: repeat(4, 1fr);
+        gap: 16px;
+    }
+}
+
+/* パソコン */
+@media (min-width: 1024px) {
+    .gallery {
+        grid-template-columns: repeat(5, 1fr);
+        gap: 20px;
+    }
+}
