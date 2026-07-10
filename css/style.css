@@ -190,3 +190,33 @@ footer a {
 footer a:hover {
     color: #7fc4a6;
 }
+
+/* ==========================
+   Policy
+========================== */
+
+main {
+    line-height: 1.9;
+}
+
+section {
+    margin-bottom: 45px;
+}
+
+h2 {
+    text-align: center;
+    color: #5b96b8;
+    margin-bottom: 50px;
+}
+
+h3 {
+    color: #5b96b8;
+    border-left: 5px solid #b8ddf3;
+    padding-left: 12px;
+    margin-bottom: 15px;
+}
+
+section p {
+    margin: 10px 0;
+    color: #666;
+}
