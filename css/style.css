@@ -340,23 +340,20 @@ footer a:hover {
     width: 100%;
 }
 
+
 .updates {
     text-align: center;
 }
 
 .updates h2 {
     color: #5f88a5;
-    font-size: 1.00rem;
+    font-size: 1rem;
     font-weight: 500;
     margin-bottom: 25px;
 }
 
 .update-item {
-    margin-bottom: 28px;
-}
-
-.update-item:last-child {
-    margin-bottom: 0;
+    margin-bottom: 24px;
 }
 
 .update-date {
@@ -368,9 +365,8 @@ footer a:hover {
 .update-item p:last-child {
     color: #505050;
     line-height: 1.8;
+    margin-bottom: 0;
 }
-
-
 
 
 .profile-icon {
