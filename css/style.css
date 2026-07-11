@@ -362,10 +362,11 @@ footer a:hover {
     margin-bottom: 6px;
 }
 
+
 .update-item p:last-child {
     color: #505050;
     line-height: 1.8;
-    margin-bottom: 0;
+    margin-bottom: 20px;
 }
 
 
