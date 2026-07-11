@@ -50,13 +50,20 @@ nav {
     margin-bottom: 50px;
 }
 
+
 nav a {
     color: #5f88a5;
-    text-decoration: none;
+    text-decoration: underline;
+    text-decoration-color: #7ea7c8;
+    text-decoration-thickness: 1.5px;
+    text-underline-offset: 5px;
+
     font-weight: 500;
     letter-spacing: 0.05em;
+
     transition: all 0.3s ease;
 }
+
 
 nav a:hover {
     color: #476c87;
