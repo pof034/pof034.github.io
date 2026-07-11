@@ -383,6 +383,18 @@ footer a:hover {
     box-shadow: 0 4px 12px rgba(90,120,140,.12);
 }
 
+.profile-message {
+    margin-top: 8px;
+    font-size: 0.7rem;
+    line-height: 1.7;
+    color: #9fb2c1;
+    text-align: center;
+   }
+   
+
+
+
+   
 
 /* ---------- Link ---------- */
 
@@ -470,11 +482,4 @@ footer a:hover {
 
    
    
-   .profile-message {
-    margin-top: 8px;
-    font-size: 0.7rem;
-    line-height: 1.7;
-    color: #9fb2c1;
-    text-align: center;
-   }
    
