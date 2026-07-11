@@ -300,6 +300,7 @@ footer a:hover {
 
 
 
+
 /* =====================================
    Home
 ===================================== */
@@ -310,11 +311,10 @@ footer a:hover {
 
 .profile h1 {
     color: #5f88a5;
-    font-size: 1.5rem;
+    font-size: 1.35rem;
     font-weight: 500;
-    margin-bottom: 2px;
+    margin: 0;
 }
-
 
 .birthday {
     font-size: 0.95rem;
@@ -322,7 +322,6 @@ footer a:hover {
     letter-spacing: 0.05em;
     margin: 2px 0 40px;
 }
-
 
 .section-line {
     border: none;
@@ -332,12 +331,12 @@ footer a:hover {
 }
 
 .updates {
-    text-align: left;
+    text-align: center;
 }
 
 .updates h2 {
     color: #5f88a5;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     font-weight: 500;
     margin-bottom: 25px;
 }
