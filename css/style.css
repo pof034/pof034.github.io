@@ -371,14 +371,12 @@ footer a:hover {
 }
 
 
-
-
 .profile-icon {
     width: 70px;
     height: 70px;
     border-radius: 50%;
-    object-fit: contain;
-}
+    object-fit: cover;
+    object-position: center top;
 
     display: block;
     margin: 0 auto 1px;
