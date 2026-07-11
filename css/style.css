@@ -298,6 +298,8 @@ footer a:hover {
 
 
 
+
+
 /* =====================================
    Home
 ===================================== */
@@ -307,24 +309,24 @@ footer a:hover {
 }
 
 .profile h1 {
-    font-size: 2rem;
-    font-weight: 500;
     color: #5f88a5;
-    letter-spacing: 0.08em;
-    margin-bottom: 8px;
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-bottom: 2px;
 }
 
 .birthday {
     font-size: 0.95rem;
     color: #8fa5b5;
-    letter-spacing: 0.08em;
-    margin-bottom: 40px;
+    letter-spacing: 0.05em;
+    margin-bottom: 36px;
+    margin-top: 0;
 }
 
 .section-line {
     border: none;
     border-top: 1px solid #dbe8ef;
-    margin: 0 auto 40px;
+    margin: 0 auto 36px;
     width: 100%;
 }
 
@@ -357,4 +359,5 @@ footer a:hover {
     color: #505050;
     line-height: 1.8;
 }
+
 
