@@ -468,11 +468,13 @@ footer a:hover {
 }
 
 
-
+   
+   
    .profile-message {
-    margin-top: 12px;
+    margin-top: 8px;
     font-size: 0.7rem;
     line-height: 1.7;
-    color: #6b7a86;
+    color: #9fb2c1;
     text-align: center;
    }
+   
