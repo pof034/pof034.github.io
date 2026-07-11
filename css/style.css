@@ -249,47 +249,54 @@ footer a:hover {
     transform: scale(1.2) rotate(-8deg);
 }
 
+
+
 /* =====================================
    Smartphone
 ===================================== */
 
-@media (max-width:768px){
+@media (max-width: 768px) {
 
-    .container{
-        width:95%;
-        padding:20px 10px;
+    .container {
+        width: 95%;
+        padding: 20px 10px;
     }
 
-    nav{
-        gap:22px;
-        margin-bottom:35px;
+    nav {
+        gap: 22px;
+        margin-bottom: 35px;
+        flex-wrap: wrap;   /* メニューが収まりきらない場合は折り返す */
     }
 
-    .gallery{
-        grid-template-columns:repeat(2,1fr);
-        gap:10px;
+    .gallery {
+        grid-template-columns: repeat(4, 1fr);
+        gap: 8px;
     }
 
-    .card{
-        padding:28px;
+    .card {
+        padding: 28px;
     }
 
-    .home-card{
-        padding:65px 25px;
+    .home-card {
+        padding: 65px 25px;
     }
 
-    .home-card h1{
-        font-size:1.8rem;
+    .home-card h1 {
+        font-size: 1.8rem;
     }
 
-    .home-message{
-        font-size:1rem;
+    .home-message {
+        font-size: 1rem;
     }
 
-    .leaf-link{
-        right:20px;
-        bottom:18px;
-        font-size:36px;
+    .leaf-link {
+        right: 20px;
+        bottom: 18px;
+        font-size: 36px;
     }
 }
+
+
+
+
 
