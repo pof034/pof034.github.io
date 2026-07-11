@@ -382,3 +382,87 @@ footer a:hover {
     border: 3px solid rgba(255,255,255,0.8);
     box-shadow: 0 4px 12px rgba(90,120,140,.12);
 }
+
+
+/* ---------- Link ---------- */
+
+.link-group{
+    margin-top: 30px;
+}
+
+.link-group h3{
+    color: #5f88a5;
+    font-size: 1rem;
+    font-weight: 500;
+    margin-bottom: 18px;
+}
+
+.link-card{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    background: rgba(255,255,255,.72);
+
+    border: 1px solid rgba(170,195,215,.45);
+
+    border-radius: 18px;
+
+    padding: 18px 22px;
+
+    margin-bottom: 16px;
+
+    text-decoration: none;
+
+    color: #505050;
+
+    transition: .25s;
+}
+
+.link-card:hover{
+
+    transform: translateY(-3px);
+
+    background: rgba(255,255,255,.92);
+
+    box-shadow: 0 8px 20px rgba(80,110,130,.12);
+
+}
+
+.link-card h4{
+
+    margin: 0 0 6px;
+
+    color: #5f88a5;
+
+    font-size: 1rem;
+
+    font-weight: 500;
+
+}
+
+.link-card p{
+
+    margin: 0;
+
+    font-size: .9rem;
+
+    color: #808080;
+
+}
+
+.visit{
+
+    font-size: 1.4rem;
+
+    color: #7ea7c8;
+
+    transition: .25s;
+
+}
+
+.link-card:hover .visit{
+
+    transform: translateX(6px);
+
+}
