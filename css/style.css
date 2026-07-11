@@ -315,13 +315,14 @@ footer a:hover {
     margin-bottom: 2px;
 }
 
+
 .birthday {
     font-size: 0.95rem;
     color: #8fa5b5;
     letter-spacing: 0.05em;
-    margin-bottom: 36px;
-    margin-top: 0;
+    margin: 2px 0 40px;
 }
+
 
 .section-line {
     border: none;
