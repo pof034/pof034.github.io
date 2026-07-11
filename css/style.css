@@ -14,17 +14,20 @@
    Body
 ===================================== */
 
+   
 body {
+    margin: 0;
     font-family: "Zen Maru Gothic", sans-serif;
-    color: #505050;
-    line-height: 1.9;
 
     background: linear-gradient(
         180deg,
-        #cfdfe8 0%,
-        #dce9f0 45%,
-        #edf4f8 100%
+        #b8d4e8 0%,
+        #98bdd8 55%,
+        #7ea7c8 100%
     );
+
+    color: #4f5d67;
+}
 
     min-height: 100vh;
 }
