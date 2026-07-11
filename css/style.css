@@ -371,17 +371,11 @@ footer a:hover {
 }
 
 
+
 .profile-icon {
     width: 70px;
     height: 70px;
     border-radius: 50%;
-    object-fit: cover;
-    object-position: center top;
-
-    display: block;
-    margin: 0 auto 1px;
-
-    border: 3px solid rgba(255,255,255,0.8);
-    box-shadow: 0 4px 12px rgba(90,120,140,.12);
+    object-fit: contain;
 }
 
