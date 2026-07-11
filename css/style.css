@@ -118,63 +118,38 @@ nav a:hover {
     line-height: 2.2;
 }
 
-/* =====================================
+
+/* ==========================
    Gallery
-===================================== */
+========================== */
 
 .gallery {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    gap: 15px;
+    gap: 12px;
+    margin-top: 30px;
 }
 
-.gallery img {
+.gallery-item {
+    margin: 0;
+    overflow: hidden;
+    border-radius: 12px;
+}
+
+.gallery-item img {
     width: 100%;
     display: block;
-
-    border-radius: 14px;
-
-    transition: transform .3s ease,
-                box-shadow .3s ease;
-}
-
-.gallery img:hover {
-
-    transform: translateY(-3px);
-
-    box-shadow: 0 8px 18px rgba(0,0,0,.12);
-}
-
-/* =====================================
-   Profile
-===================================== */
-
-.profile {
-    text-align: center;
-}
-
-.profile-icon {
-
-    width: 160px;
-    height: 160px;
-
-    border-radius: 50%;
-
+    aspect-ratio: 2480 / 3508;
     object-fit: cover;
-
-    margin-bottom: 20px;
-
-    border: 6px solid #edf5f8;
+    cursor: pointer;
+    transition: transform 0.25s ease;
 }
 
-.profile ul {
-    list-style: none;
-    margin-top: 15px;
+.gallery-item img:hover {
+    transform: scale(1.03);
 }
 
-.profile li {
-    margin: 10px 0;
-}
+
 
 /* =====================================
    Diary
